@@ -1,0 +1,70 @@
+@import './vars.scss';
+
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+    gap: 45px;
+}
+
+.card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+	transition: all .1s;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 8px;
+	padding: 40px;
+	margin: 0;
+	min-width: 250px;
+
+	&:hover {
+        transform: translateY(-3px);
+
+		&.male {
+			box-shadow: 0 1rem 2rem rgba($cyan,.2);
+		}
+		
+		&.female {
+			box-shadow: 0 1rem 2rem rgba($magenta,.2);
+		}
+    }
+
+	figure {
+		margin: 0;
+	}
+  
+	img {
+		border-radius: 50%;
+		margin: 0;
+		transition: all .2s;
+		outline-width: 4px;
+		outline-style: solid;
+		outline-offset: 3px;
+		outline-color: transparent;
+	}
+
+	.description {
+		&__name {
+			font-weight: 700;
+			margin: 0;
+	
+			span {
+				display: block;
+			}
+		}
+
+		&__date {
+			margin: 0;
+		}
+	}
+}
+  
+.notification {
+	color: red;
+	padding-top: 20px;
+}
