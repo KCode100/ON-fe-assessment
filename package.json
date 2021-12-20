@@ -1,5 +1,6 @@
 {
   "name": "on-fe-assessment",
+  "homepage": "https://bykivi.com/random-user-search/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
