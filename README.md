@@ -4,6 +4,14 @@
  
 **[Link to live results](https://bykivi.com/random-user-search/).**
 
+## Technologies used
+
+- randomuser API data
+- React useState
+- React useEffect
+- new.css, a lightweight library for very basic styling
+- Sass, for some additional styling
+
 ## Installation
 
 For local environments...
