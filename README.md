@@ -33,13 +33,6 @@ npm run build
 
 >## Before you start :)
 >
->You will not be able to edit this Glitch. You will need to click the "Remix to edit" button that displays in the top right of the view pane.
->You can also remix by clicking the "code-test-template" button in the top left of the page. When you remix, Glitch will create a copy of this project. The URL is what you will >share with ON. It is a good idea to create a free Glitch account as this will ensure you can keep your Glitch.
->
->You can create an account [here](https://glitch.com/signin).
->
->Before you get started, read the below instructions carefully. This challenge represents the typical type of task you would need to undertake at ON without assistance.
->
 >This exercise is split into two parts.
 >
 >Refer to the `src/pages/home.jsx` file and `src/pages/homeStyles.css` file. You can ignore all the other files within this project.
