@@ -1,4 +1,4 @@
-# MadebyOn Frontend Coding Challenge
+# Frontend Coding Challenge
 ## _Create a page displaying random users from randomuser API with search functionality._
  ✨ Completed in 2 hours ✨
  
